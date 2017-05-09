@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="cell">
+  <h1>
+    {{#link-to "index" class="logo"}}
+      <b class="srt">Wilderness Safety Quiz</b>
+    {{/link-to}}
+  </h1>
 
-{{outlet}}
+  <div class="card">
+    {{outlet}}
+  </div> <!-- end card -->
+</div> <!-- end cell -->
